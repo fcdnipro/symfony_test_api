@@ -30,7 +30,7 @@ services:
   postgresql:
     image: postgres:latest
     environment:
-      POSTGRES_DB: symfony
+      POSTGRES_DB: testdb
       POSTGRES_USER: symfony
       POSTGRES_PASSWORD: secret
     volumes:
